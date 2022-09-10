@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+                
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <title>Kibus_Test_Gerard</title>
+</head>
+<body >
+    <div id="r_bg-img">
+        <!-- <img src="Kibus_Prueba\Prototype web.png"  width="100%">  -->
+        <!-- imagen de fondo para ajustar el diseño al màximo -->
+    </div>
+    <div class="content">
+        <!-- /* Header */ -->
+        <div class="header_back"></div>
+        <img src="Kibus_Prueba\Group.png" id="logo">
+        <img src="Kibus_Prueba\imagen.png" id="header_img">
+        <img src="/Kibus_Prueba/Ellipse 8.png" id="img_back" >
+        <h1 class="title-s0 anim_1">Alimentar bien a tu perro es más fácil que nunca</h1>
+        <h4 class="text-s0 anim_1">La nueva alimentación canina ha llegado. Con Kibus, podrás ofrecer a tu compañero comida sana, rica y recién cocinada de una forma fácil y cómoda</h4>
+        <button id="b1" class="primary_button btn animate_button"> Reserva Ahora </button>
+        <button id="b2" class="secondary_button btn animate_button"> 
+            Quiero Saber Más <img src="Kibus_Prueba\Arrow - Right Circle.png" class="icon_svg" >
+        </button>
+
+        
+        <!-- /* S1 */ -->
+        <div id="box"></div>
+        <img src="/Kibus_Prueba/pollo.jpg" id="pollo" class="pizza">
+        <h6 class="title-s1 pizza_title">Pollo y Pimiento</h6>
+        <small class="text-s1 pizza_text">Energética, con ingredientes antioxidantes</small>
+        <img src="/Kibus_Prueba/salmon.jpg" id="salmon" class="pizza">
+        <h6 class="title-s1 salmon pizza_title">Salmón y Arroz</h6>
+        <small class="text-s1 salmon pizza_text" >Ipoalergénica, con Omega 3 y 6</small>
+        <img src="/Kibus_Prueba/cerdo.jpg" id="cerdo" class="pizza">
+        <h6 class="title-s1 cerdo pizza_title">Cerdo y Calabaza</h6>
+        <small class="text-s1 cerdo pizza_text">para dar vitalidad buena para el sistema inmune</small>
+        <img src="/Kibus_Prueba/pollo.jpg" id="tureceta" class="pizza">
+        <button id="b3" class="terciary_button pizza_title animate_button">Tu Receta <svg id="icon-3"width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.59668 8.37738L4.98846 5.00019L1.59668 1.623" stroke="#EE7333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            </button>
+        <small class="text-s1 receta pizza_text">Ayúdanos a decidir nuestra nueva receta</small>
+
+        <!-- /* S2 */ -->
+        <div id="pink"></div>
+        <img src="/Kibus_Prueba/doggy.png" id="img_s2">
+        <img src="/Kibus_Prueba/Ellipse 8.png" id="img_s2_back" >
+
+        <h3 class="title-s2 anim_3 ">Mejor para ellos, más fácil y cómodo para ti</h3>
+        <p class="text-s2 anim_3">Con Kibus, nunca tendrás que preocuparte de cómo ofrecer una dieta sana y natural a tu perro de forma cómoda y rápida. Nuestro dispositivo cocina automáticamente la cantidad exacta en cada comida e incluso lo puedes programar a través de la app. Tu perro disfrutará comida de casera de primera calidad, con el mínimo esfuerzo.</p>
+        
+        <button id="b4" class="primary_button_2 btn2 animate_button" > Reserva Ahora </button>
+        <button id="b5" class="secondary_button_2 btn2 animate_button" > Quiero Saber Más <img src="Kibus_Prueba\Arrow - Right Circle.png" class="icon_svg" ></button>
+
+        <!-- /* S3 */ -->
+        
+        <img src="/Kibus_Prueba/image 13.png" id="img_s3">
+        <img src="/Kibus_Prueba/image 15.png" id="img_s3_back">
+
+        <img src="/Kibus_Prueba/programable/programable icon.png" id="s3_1" class="anim_4">
+        <h6 class="title-s3 anim_4">Programable 24h</h6>
+        <img src="/Kibus_Prueba/programable/Group 62.png" id="s3_2" class="anim_4">
+        <h6 class="title-s3 agua anim_4">Agua siempre disponible</h6>
+        <img src="/Kibus_Prueba/programable/cantidad personalizable.png" id="s3_3" class="anim_4">
+        <h6 class="title-s3 cantidad anim_4">Cantidad personalizable</h6>
+        <img src="/Kibus_Prueba/programable/function.png" id="s3_4" class="anim_4">
+        <h6 class="title-s3 historial anim_4">Historial de las comidas</h6>
+        <img src="/Kibus_Prueba/programable/Fácil de usar y lavar.png" id="s3_5" class="anim_4">
+        <h6 class="title-s3 facil anim_4">Fácil de usar y lavar</h6>
+        <img src="/Kibus_Prueba/programable/App para iOS y Android.png" id="s3_6" class="anim_4">
+        <h6 class="title-s3 app anim_4">App para iOS y Android</h6>
+        <!-- /* Footer */ -->
+
+        <div class="footer"></div>
+        <img src="/Kibus_Prueba/KIBUS LOGO, COLOUR + ELEMENTS-08 1.png" id="logo_footer">
+        <h6 class="title-footer anim_5">Sobre KIBUS</h6>
+        <p class="text-footer anim_5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        <h6 class="title-footer politicas anim_5">Políticas</h6>
+        <ul id="links" class="anim_5">
+            <a href="#">Políticas de Privacidad</a>
+            <a href="#">Condiciones de uso</a>
+            <a href="#">Cookies</a>
+            <a href="#">FAQ</a>
+        </ul>
+        <h6 class="title-footer metodos anim_5">Métodos de pago</h6>
+        <a href=""><img src="/Kibus_Prueba/Group 64.png" id="payment" class="anim_6"></a>
+        <a href=""><img src="/Kibus_Prueba/facebook.png" id="social_1" class="anim_6"></a>
+        <a href=""><img src="/Kibus_Prueba/instagram.png" id="social_2" class="anim_6"></a>
+        <a href=""><img src="/Kibus_Prueba/youtube.png" id="social_3" class="anim_6"></a>
+
+    </div>
+</body>
+<script src="animation.js"></script>
+</html>
